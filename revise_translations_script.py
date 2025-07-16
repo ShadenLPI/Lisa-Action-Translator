@@ -4,11 +4,12 @@
 # Install required packages:
 # pip install openai gspread google-auth
 
+import time
 import openai
 import gspread
 import re
 from google.oauth2.service_account import Credentials
-from openai.error import OpenAIError
+from openai import OpenAIError
 
 # === CONFIGURATION ===
 openai.api_key = "sk-xxxxx"  # Replace with actual OpenAI key
