@@ -1,3 +1,8 @@
+
+# .gitignore
+credentials.json
+credentials_wrong.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
